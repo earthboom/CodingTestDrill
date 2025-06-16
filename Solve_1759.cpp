@@ -24,21 +24,70 @@ C개의 문자들이 모두 주어졌을 때, 가능성 있는 암호들을 모두 구하는 프로그램을 작�
 
 */
 
-#include "CodingProblem.h"
+#include "Solve_1759.h"
 #include <iostream>
 #include <vector>
 #include <algorithm>
 
 using namespace std;
 
-int L, T;
-int VMax, CMax;
-vector<char> Alphabets;
-vector<char> Results;
-string vowels;
+namespace SV1759
+{
+	int L, T;
+	int VMax, CMax;
+	vector<char> Alphabets;
+	vector<char> Results;
+	string vowels;
 
-void Recursion_1759(int depth);
-int VowelExtration_1759();
+	void Recursion_1759(int depth);
+	int VowelExtration_1759();
+
+	void Recursion_1759(int depth)
+	{
+		if (depth == L)
+		{
+			int vowelCount = VowelExtration_1759();
+			int ConsonantCount = L - vowelCount;
+
+			if (vowelCount >= VMax && ConsonantCount >= CMax)
+			{
+				for (int i = 0; i < L; ++i)
+				{
+					cout << Results[i];
+				}
+				cout << endl;
+			}
+
+			return;
+		}
+
+		for (int i = 0; i < T; ++i)
+		{
+			if (depth > 0 && Results[depth - 1] >= Alphabets[i])
+			{
+				continue;
+			}
+
+			Results[depth] = Alphabets[i];
+			Recursion_1759(depth + 1);
+		}
+	}
+
+	int VowelExtration_1759()
+	{
+		int count = 0;
+		for (const char& c : Results)
+		{
+			if (vowels.find(c) != string::npos)
+			{
+				++count;
+			}
+		}
+		return count;
+	}
+}
+
+using namespace SV1759;
 
 void Solve_1759()
 {
@@ -57,48 +106,4 @@ void Solve_1759()
 	CMax = 2;
 	
 	Recursion_1759(0);
-}
-
-void Recursion_1759(int depth)
-{
-	if (depth == L)
-	{
-		int vowelCount = VowelExtration_1759();
-		int ConsonantCount = L - vowelCount;
-
-		if (vowelCount >= VMax && ConsonantCount >= CMax)
-		{
-			for (int i = 0; i < L; ++i)
-			{
-				cout << Results[i];
-			}
-			cout << endl;
-		}
-
-		return;
-	}
-
-	for (int i = 0; i < T; ++i)
-	{
-		if (depth > 0 && Results[depth - 1] >= Alphabets[i])
-		{
-			continue;
-		}
-
-		Results[depth] = Alphabets[i];
-		Recursion_1759(depth + 1);
-	}
-}
-
-int VowelExtration_1759()
-{
-	int count = 0;
-	for (const char& c : Results)
-	{
-		if (vowels.find(c) != string::npos)
-		{
-			++count;
-		}
-	}
-	return count;
 }

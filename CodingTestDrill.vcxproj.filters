@@ -15,15 +15,57 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CodingTestDrill.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CodingProblem.cpp">
+    <ClCompile Include="Solve_1759.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve_10972.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve_2309.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve_3085.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve_4375.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve_9095.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve_15649.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve_15650.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CodingProblem.h">
+    <ClInclude Include="Solve_1759.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_10972.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_2309.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_3085.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_4375.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_9095.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_15649.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_15650.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>

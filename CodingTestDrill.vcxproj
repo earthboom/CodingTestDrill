@@ -127,11 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CodingTestDrill.cpp" />
-    <ClCompile Include="CodingProblem.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Solve_10972.cpp" />
+    <ClCompile Include="Solve_15649.cpp" />
+    <ClCompile Include="Solve_15650.cpp" />
+    <ClCompile Include="Solve_1759.cpp" />
+    <ClCompile Include="Solve_2309.cpp" />
+    <ClCompile Include="Solve_3085.cpp" />
+    <ClCompile Include="Solve_4375.cpp" />
+    <ClCompile Include="Solve_9095.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CodingProblem.h" />
+    <ClInclude Include="Solve_10972.h" />
+    <ClInclude Include="Solve_15649.h" />
+    <ClInclude Include="Solve_15650.h" />
+    <ClInclude Include="Solve_1759.h" />
+    <ClInclude Include="Solve_2309.h" />
+    <ClInclude Include="Solve_3085.h" />
+    <ClInclude Include="Solve_4375.h" />
+    <ClInclude Include="Solve_9095.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
