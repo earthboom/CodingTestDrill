@@ -6,6 +6,7 @@
 #include "Solve_4375.h"
 #include "Solve_9095.h"
 #include "Solve_10972.h"
+#include "Solve_10973.h"
 #include "Solve_15649.h"
 #include "Solve_15650.h"
 
@@ -16,7 +17,8 @@ int main()
 	// Solve_3085();
 	// Solve_4375();
 	// Solve_9095();
-	Solve_10972();
+	// Solve_10972();
+	Solve_10973();
 	// Solve_15649();
 	// Solve_15650();
 }
