@@ -1,5 +1,6 @@
 ﻿
 #include <iostream>
+#include "Solve_1182.h"
 #include "Solve_1759.h"
 #include "Solve_2309.h"
 #include "Solve_3085.h"
@@ -13,6 +14,7 @@
 
 int main()
 {
+	Solve_1182();
 	// Solve_1759();
 	// Solve_2309();
 	// Solve_3085();
@@ -20,7 +22,7 @@ int main()
 	// Solve_9095();
 	// Solve_10972();
 	// Solve_10973();
-	Solve_11723();
+	// Solve_11723();
 	// Solve_15649();
 	// Solve_15650();
 }

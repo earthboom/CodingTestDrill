@@ -50,6 +50,9 @@
     <ClCompile Include="Solve_11723.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solve_1182.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solve_1759.h">
@@ -87,6 +90,12 @@
     </ClInclude>
     <ClInclude Include="Solve_11723.h">
       <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_1182.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BruteForce.h">
+      <Filter>Study</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

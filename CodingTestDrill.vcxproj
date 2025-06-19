@@ -133,6 +133,7 @@
     <ClCompile Include="Solve_10972.cpp" />
     <ClCompile Include="Solve_10973.cpp" />
     <ClCompile Include="Solve_11723.cpp" />
+    <ClCompile Include="Solve_1182.cpp" />
     <ClCompile Include="Solve_15649.cpp" />
     <ClCompile Include="Solve_15650.cpp" />
     <ClCompile Include="Solve_1759.cpp" />
@@ -143,10 +144,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bitmask.h" />
+    <ClInclude Include="BruteForce.h" />
     <ClInclude Include="Permutation.h" />
     <ClInclude Include="Solve_10972.h" />
     <ClInclude Include="Solve_10973.h" />
     <ClInclude Include="Solve_11723.h" />
+    <ClInclude Include="Solve_1182.h" />
     <ClInclude Include="Solve_15649.h" />
     <ClInclude Include="Solve_15650.h" />
     <ClInclude Include="Solve_1759.h" />
