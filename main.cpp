@@ -1,6 +1,7 @@
 ﻿
 #include <iostream>
 #include "Solve_1182.h"
+#include "Solve_1463.h"
 #include "Solve_1759.h"
 #include "Solve_2309.h"
 #include "Solve_3085.h"
@@ -14,7 +15,8 @@
 
 int main()
 {
-	Solve_1182();
+	// Solve_1182();
+	BP1463::Solve_1463();
 	// Solve_1759();
 	// Solve_2309();
 	// Solve_3085();

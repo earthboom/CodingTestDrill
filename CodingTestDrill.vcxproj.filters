@@ -53,6 +53,12 @@
     <ClCompile Include="Solve_1182.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Solve_1463.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming.cpp">
+      <Filter>Study</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solve_1759.h">
@@ -96,6 +102,9 @@
     </ClInclude>
     <ClInclude Include="BruteForce.h">
       <Filter>Study</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_1463.h">
+      <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
