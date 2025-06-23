@@ -1,3 +1,6 @@
 #pragma once
 
-void Solve_1759();
+namespace BP1759
+{
+	void Solve_1759();
+}

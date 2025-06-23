@@ -27,7 +27,7 @@ https://www.acmicpc.net/problem/3085
 
 using namespace std;
 
-namespace SV3085
+namespace BP3085
 {
 	int N;
 	vector<string> Matrix;
@@ -72,40 +72,38 @@ namespace SV3085
 		}
 		return BestCount;
 	}
-}
 
-using namespace SV3085;
-
-void Solve_3085()
-{
-	cin >> N;
-	Matrix.resize(N);
-
-	for (int i = 0; i < N; ++i)
+	void Solve_3085()
 	{
-		cin >> Matrix[i];
-	}
+		cin >> N;
+		Matrix.resize(N);
 
-	int answer = 1;
-	for (int i = 0; i < N; ++i)
-	{
-		for (int j = 0; j < N; ++j)
+		for (int i = 0; i < N; ++i)
 		{
-			if (j + 1 < N && Matrix[i][j] != Matrix[i][j + 1])
-			{
-				swap(Matrix[i][j], Matrix[i][j + 1]);
-				answer = max(answer, IsCheck());
-				swap(Matrix[i][j], Matrix[i][j + 1]);
-			}
+			cin >> Matrix[i];
+		}
 
-			if (i + 1 < N && Matrix[i][j] != Matrix[i + 1][j])
+		int answer = 1;
+		for (int i = 0; i < N; ++i)
+		{
+			for (int j = 0; j < N; ++j)
 			{
-				swap(Matrix[i][j], Matrix[i + 1][j]);
-				answer = max(answer, IsCheck());
-				swap(Matrix[i][j], Matrix[i + 1][j]);
+				if (j + 1 < N && Matrix[i][j] != Matrix[i][j + 1])
+				{
+					swap(Matrix[i][j], Matrix[i][j + 1]);
+					answer = max(answer, IsCheck());
+					swap(Matrix[i][j], Matrix[i][j + 1]);
+				}
+
+				if (i + 1 < N && Matrix[i][j] != Matrix[i + 1][j])
+				{
+					swap(Matrix[i][j], Matrix[i + 1][j]);
+					answer = max(answer, IsCheck());
+					swap(Matrix[i][j], Matrix[i + 1][j]);
+				}
 			}
 		}
-	}
 
-	cout << answer << endl;
+		cout << answer << endl;
+	}
 }

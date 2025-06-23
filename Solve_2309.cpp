@@ -25,65 +25,68 @@ https://www.acmicpc.net/problem/2309
 
 using namespace std;
 
-void Solve_2309()
+namespace BP2309
 {
-	int total = 0;
-	vector<int> Heights;
-	while (Heights.size() < 9)
+	void Solve_2309()
 	{
-		int n = 0;
-		cin >> n;
-
-		if (n >= 100)
+		int total = 0;
+		vector<int> Heights;
+		while (Heights.size() < 9)
 		{
-			continue;
-		}
+			int n = 0;
+			cin >> n;
 
-		vector<int>::iterator it = find(Heights.begin(), Heights.end(), n);
-		if (it == Heights.end())
-		{
-			total += n;
-			Heights.emplace_back(n);
-		}
-	}
-
-	cout << endl;
-
-	int remove_0 = -1;
-	int remove_1 = -1;
-	for (int i = 0; i < 9; ++i)
-	{
-		for (int j = i + 1; j < 9; ++j)
-		{
-			int sum = total - (Heights[i] + Heights[j]);
-			if (sum == 100)
+			if (n >= 100)
 			{
-				remove_0 = i;
-				remove_1 = j;
+				continue;
+			}
+
+			vector<int>::iterator it = find(Heights.begin(), Heights.end(), n);
+			if (it == Heights.end())
+			{
+				total += n;
+				Heights.emplace_back(n);
 			}
 		}
 
-		if (remove_0 >= 0 && remove_1 >= 0)
+		cout << endl;
+
+		int remove_0 = -1;
+		int remove_1 = -1;
+		for (int i = 0; i < 9; ++i)
 		{
-			break;
-		}
-	}
+			for (int j = i + 1; j < 9; ++j)
+			{
+				int sum = total - (Heights[i] + Heights[j]);
+				if (sum == 100)
+				{
+					remove_0 = i;
+					remove_1 = j;
+				}
+			}
 
-	vector<int> Results;
-	for (int i = 0; i < 9; ++i)
-	{
-		if (i == remove_0 || i == remove_1)
+			if (remove_0 >= 0 && remove_1 >= 0)
+			{
+				break;
+			}
+		}
+
+		vector<int> Results;
+		for (int i = 0; i < 9; ++i)
 		{
-			continue;
+			if (i == remove_0 || i == remove_1)
+			{
+				continue;
+			}
+
+			Results.emplace_back(Heights[i]);
 		}
 
-		Results.emplace_back(Heights[i]);
-	}
+		std::sort(Results.begin(), Results.end());
 
-	std::sort(Results.begin(), Results.end());
-
-	for (const int& height : Results)
-	{
-		cout << height << endl;
+		for (const int& height : Results)
+		{
+			cout << height << endl;
+		}
 	}
 }

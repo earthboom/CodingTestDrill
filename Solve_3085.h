@@ -1,3 +1,6 @@
 #pragma once
 
-void Solve_3085();
+namespace BP3085
+{
+	void Solve_3085();
+}

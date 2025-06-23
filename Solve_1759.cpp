@@ -31,7 +31,7 @@ C개의 문자들이 모두 주어졌을 때, 가능성 있는 암호들을 모두 구하는 프로그램을 작�
 
 using namespace std;
 
-namespace SV1759
+namespace BP1759
 {
 	int L, T;
 	int VMax, CMax;
@@ -85,25 +85,23 @@ namespace SV1759
 		}
 		return count;
 	}
-}
 
-using namespace SV1759;
-
-void Solve_1759()
-{
-	cin >> L >> T;
-	Alphabets.resize(T);
-	Results.resize(L);
-	for (int i = 0; i < T; ++i)
+	void Solve_1759()
 	{
-		cin >> Alphabets[i];
+		cin >> L >> T;
+		Alphabets.resize(T);
+		Results.resize(L);
+		for (int i = 0; i < T; ++i)
+		{
+			cin >> Alphabets[i];
+		}
+
+		sort(Alphabets.begin(), Alphabets.end());
+
+		vowels = "aeiou";
+		VMax = 1;
+		CMax = 2;
+
+		Recursion_1759(0);
 	}
-
-	sort(Alphabets.begin(), Alphabets.end());
-
-	vowels = "aeiou";
-	VMax = 1;
-	CMax = 2;
-	
-	Recursion_1759(0);
 }

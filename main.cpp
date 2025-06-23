@@ -10,21 +10,23 @@
 #include "Solve_10972.h"
 #include "Solve_10973.h"
 #include "Solve_11723.h"
+#include "Solve_11726.h"
 #include "Solve_15649.h"
 #include "Solve_15650.h"
 
 int main()
 {
-	// Solve_1182();
-	BP1463::Solve_1463();
-	// Solve_1759();
-	// Solve_2309();
-	// Solve_3085();
+	// BP1182::Solve_1182();
+	// BP1463::Solve_1463();
+	// BP1759::Solve_1759();
+	// BP2309::Solve_2309();
+	// BP3085::Solve_3085();
 	// Solve_4375();
 	// Solve_9095();
 	// Solve_10972();
 	// Solve_10973();
 	// Solve_11723();
+	BP11726::Solve_11726();
 	// Solve_15649();
 	// Solve_15650();
 }

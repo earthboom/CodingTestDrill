@@ -59,6 +59,12 @@
     <ClCompile Include="DynamicProgramming.cpp">
       <Filter>Study</Filter>
     </ClCompile>
+    <ClCompile Include="Solve_11726.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RecurrenceRelation.cpp">
+      <Filter>Study</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solve_1759.h">
@@ -104,6 +110,9 @@
       <Filter>Study</Filter>
     </ClInclude>
     <ClInclude Include="Solve_1463.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_11726.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>

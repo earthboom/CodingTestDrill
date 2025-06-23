@@ -19,51 +19,54 @@ N개의 정수로 이루어진 수열이 있을 때, 크기가 양수인 부분수열 중에서 그 수열의 원
 
 using namespace std;
 
-int N, S;
-int64_t C;
-vector<int> P;
-
-void DFS(int idx, int64_t sum);
-
-void Solve_1182()
+namespace BP1182
 {
-	cin >> N >> S;
+	int N, S;
+	int64_t C;
+	vector<int> P;
 
-	C = 0;
-	P.resize(N);
-	for (int i = 0; i < N; ++i)
+	void DFS(int idx, int64_t sum);
+
+	void Solve_1182()
 	{
-		cin >> P[i];
-	}
+		cin >> N >> S;
 
-	DFS(0, 0);
-
-	// 공집합의 합이 0인 경우를 제외하여야 함
-	// S==0 이면 dfs 가 빈 부분수열도 카운트했으므로 1을 빼주는 작업
-	if (S == 0)
-	{
-		C--;
-	}
-
-	cout << C << endl;
-}
-
-// idx 번째 원소를 처리하면서 현재까지의 합을 sum에 유지
-void DFS(int idx, int64_t sum)
-{
-	// 모든 원소에 대해 포함 / 미포함을 결정했을 때
-	if (idx == N)
-	{
-		// 부분수열(비었을 수도 있음)의 합이 S이면 카운트
-		if (sum == S)
+		C = 0;
+		P.resize(N);
+		for (int i = 0; i < N; ++i)
 		{
-			++C;
+			cin >> P[i];
 		}
-		return;
+
+		DFS(0, 0);
+
+		// 공집합의 합이 0인 경우를 제외하여야 함
+		// S==0 이면 dfs 가 빈 부분수열도 카운트했으므로 1을 빼주는 작업
+		if (S == 0)
+		{
+			C--;
+		}
+
+		cout << C << endl;
 	}
 
-	// 1. P[idx]를 포함시키는 분기
-	DFS(idx + 1, sum + P[idx]);
-	// 2. P[idx]를 제외하는 분기
-	DFS(idx + 1, sum);
+	// idx 번째 원소를 처리하면서 현재까지의 합을 sum에 유지
+	void DFS(int idx, int64_t sum)
+	{
+		// 모든 원소에 대해 포함 / 미포함을 결정했을 때
+		if (idx == N)
+		{
+			// 부분수열(비었을 수도 있음)의 합이 S이면 카운트
+			if (sum == S)
+			{
+				++C;
+			}
+			return;
+		}
+
+		// 1. P[idx]를 포함시키는 분기
+		DFS(idx + 1, sum + P[idx]);
+		// 2. P[idx]를 제외하는 분기
+		DFS(idx + 1, sum);
+	}
 }
