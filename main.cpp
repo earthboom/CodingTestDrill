@@ -1,19 +1,19 @@
 ﻿
 #include <iostream>
-#include "Solve_1182.h"
-#include "Solve_1463.h"
-#include "Solve_1759.h"
-#include "Solve_2309.h"
-#include "Solve_3085.h"
-#include "Solve_4375.h"
-#include "Solve_9095.h"
-#include "Solve_10972.h"
-#include "Solve_10973.h"
-#include "Solve_11723.h"
-#include "Solve_11726.h"
-#include "Solve_15649.h"
-#include "Solve_15650.h"
-#include "Solve_15988.h"
+#include "CodingProblem/Solve_1182.h"
+#include "CodingProblem/Solve_1463.h"
+#include "CodingProblem/Solve_1759.h"
+#include "CodingProblem/Solve_2309.h"
+#include "CodingProblem/Solve_3085.h"
+#include "CodingProblem/Solve_4375.h"
+#include "CodingProblem/Solve_9095.h"
+#include "CodingProblem/Solve_10972.h"
+#include "CodingProblem/Solve_10973.h"
+#include "CodingProblem/Solve_11723.h"
+#include "CodingProblem/Solve_11726.h"
+#include "CodingProblem/Solve_15649.h"
+#include "CodingProblem/Solve_15650.h"
+#include "CodingProblem/Solve_15988.h"
 
 int main()
 {

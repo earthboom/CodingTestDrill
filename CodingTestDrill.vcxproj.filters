@@ -1,125 +1,127 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Study">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="Source">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="CodingProblem">
+      <UniqueIdentifier>{5c3ee11f-5aff-4420-b9e2-5112acf0700d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Theory">
+      <UniqueIdentifier>{ee301b0f-0171-4c4c-91a8-54f6966dedb2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_1759.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_1182.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_10972.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_1463.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_2309.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_1759.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_3085.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_2309.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_4375.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_3085.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_9095.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_4375.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_15649.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_9095.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_15650.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_10972.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Permutation.cpp">
-      <Filter>Study</Filter>
+    <ClCompile Include="CodingProblem\Solve_10973.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_10973.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_11723.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Bitmask.cpp">
-      <Filter>Study</Filter>
+    <ClCompile Include="CodingProblem\Solve_11726.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_11723.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_15649.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_1182.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_15650.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_1463.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="CodingProblem\Solve_15988.cpp">
+      <Filter>CodingProblem</Filter>
     </ClCompile>
-    <ClCompile Include="DynamicProgramming.cpp">
-      <Filter>Study</Filter>
+    <ClCompile Include="Theory\Bitmask.cpp">
+      <Filter>Theory</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_11726.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="Theory\DynamicProgramming.cpp">
+      <Filter>Theory</Filter>
     </ClCompile>
-    <ClCompile Include="RecurrenceRelation.cpp">
-      <Filter>Study</Filter>
+    <ClCompile Include="Theory\Permutation.cpp">
+      <Filter>Theory</Filter>
     </ClCompile>
-    <ClCompile Include="Solve_15988.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="Theory\RecurrenceRelation.cpp">
+      <Filter>Theory</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Solve_1759.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_1182.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_10972.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_1463.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_2309.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_1759.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_3085.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_2309.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_4375.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_3085.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_9095.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_4375.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_15649.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_9095.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_15650.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_10972.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Permutation.h">
-      <Filter>Study</Filter>
+    <ClInclude Include="CodingProblem\Solve_10973.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_10973.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_11723.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Bitmask.h">
-      <Filter>Study</Filter>
+    <ClInclude Include="CodingProblem\Solve_11726.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_11723.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_15649.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_1182.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="CodingProblem\Solve_15650.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="BruteForce.h">
-      <Filter>Study</Filter>
+    <ClInclude Include="CodingProblem\Solve_15988.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_1463.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="Theory\Bitmask.h">
+      <Filter>Theory</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_11726.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="Theory\BruteForce.h">
+      <Filter>Theory</Filter>
     </ClInclude>
-    <ClInclude Include="Solve_15988.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="Theory\Permutation.h">
+      <Filter>Theory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
