@@ -31,14 +31,13 @@ https://www.acmicpc.net/source/95321337
 
 using namespace std;
 
-namespace SV9095
+namespace BP9095
 {
 	vector<int> Results;
 	int T;
 	int N;
 	int Sum;
 	int Count;
-
 
 	void Check()
 	{
@@ -56,27 +55,25 @@ namespace SV9095
 			}
 		}
 	}
-}
 
-using namespace SV9095;
-
-void Solve_9095()
-{
-	cin >> T;
-	Results.resize(T);
-	for (int i = 0; i < T; ++i)
+	void Solve_9095()
 	{
-		cin >> Results[i];
-	}
+		cin >> T;
+		Results.resize(T);
+		for (int i = 0; i < T; ++i)
+		{
+			cin >> Results[i];
+		}
 
-	for (const int& num : Results)
-	{
-		Sum = 0;
-		Count = 0;
-		N = num;
+		for (const int& num : Results)
+		{
+			Sum = 0;
+			Count = 0;
+			N = num;
 
-		Check();
+			Check();
 
-		cout << Count << endl;
+			cout << Count << endl;
+		}
 	}
 }

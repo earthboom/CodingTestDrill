@@ -16,21 +16,24 @@ https://www.acmicpc.net/problem/4375
 
 using namespace std;
 
-void Solve_4375()
+namespace BP4375
 {
-	int n = 0;
-
-	while ((cin >> n))
+	void Solve_4375()
 	{
-		int rem = 1 % n;
-		int length = 1;
+		int n = 0;
 
-		while (rem != 0)
+		while ((cin >> n))
 		{
-			rem = (rem * 10 + 1) % n;
-			++length;
-		}
+			int rem = 1 % n;
+			int length = 1;
 
-		cout << length << endl;
+			while (rem != 0)
+			{
+				rem = (rem * 10 + 1) % n;
+				++length;
+			}
+
+			cout << length << endl;
+		}
 	}
 }

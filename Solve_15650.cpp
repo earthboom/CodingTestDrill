@@ -24,7 +24,7 @@ https://www.acmicpc.net/problem/15650
 
 using namespace std;
 
-namespace SV15650
+namespace BP15650
 {
 	int N;
 	int M;
@@ -52,14 +52,12 @@ namespace SV15650
 			Check(num + 1);
 		}
 	}
-}
 
-using namespace SV15650;
+	void Solve_15650()
+	{
+		cin >> N >> M;
+		Results.assign(M, 0);
 
-void Solve_15650()
-{
-	cin >> N >> M;
-	Results.assign(M, 0);
-
-	Check(0);
+		Check(0);
+	}
 }

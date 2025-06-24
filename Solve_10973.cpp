@@ -27,26 +27,29 @@ N = 3인 경우에 사전순으로 순열을 나열하면 다음과 같다.
 
 using namespace std;
 
-void Solve_10973()
+namespace BP10973
 {
-	int N = 0;
-	cin >> N;
-
-	vector<int> P(N);
-	for (int i = 0; i < N; ++i)
+	void Solve_10973()
 	{
-		cin >> P[i];
-	}
+		int N = 0;
+		cin >> N;
 
-	if (prev_permutation(P.begin(), P.end()))
-	{
-		for (const int& x : P)
+		vector<int> P(N);
+		for (int i = 0; i < N; ++i)
 		{
-			cout << x << ' ';
+			cin >> P[i];
 		}
-	}
-	else
-	{
-		cout << -1;
+
+		if (prev_permutation(P.begin(), P.end()))
+		{
+			for (const int& x : P)
+			{
+				cout << x << ' ';
+			}
+		}
+		else
+		{
+			cout << -1;
+		}
 	}
 }

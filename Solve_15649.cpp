@@ -23,7 +23,7 @@ https://www.acmicpc.net/problem/15649
 
 using namespace std;
 
-namespace SV15649
+namespace BP15649
 {
 	int N;
 	int M;
@@ -52,15 +52,13 @@ namespace SV15649
 			}
 		}
 	}
-}
 
-using namespace SV15649;
+	void Solve_15649()
+	{
+		cin >> N >> M;
+		Used.assign(N + 1, false);
+		Results.assign(M, 0);
 
-void Solve_15649()
-{
-	cin >> N >> M;
-	Used.assign(N + 1, false);
-	Results.assign(M, 0);
-
-	Check(0);
+		Check(0);
+	}
 }

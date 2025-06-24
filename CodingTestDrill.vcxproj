@@ -140,6 +140,7 @@
     <ClCompile Include="Solve_1463.cpp" />
     <ClCompile Include="Solve_15649.cpp" />
     <ClCompile Include="Solve_15650.cpp" />
+    <ClCompile Include="Solve_15988.cpp" />
     <ClCompile Include="Solve_1759.cpp" />
     <ClCompile Include="Solve_2309.cpp" />
     <ClCompile Include="Solve_3085.cpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="Solve_1463.h" />
     <ClInclude Include="Solve_15649.h" />
     <ClInclude Include="Solve_15650.h" />
+    <ClInclude Include="Solve_15988.h" />
     <ClInclude Include="Solve_1759.h" />
     <ClInclude Include="Solve_2309.h" />
     <ClInclude Include="Solve_3085.h" />

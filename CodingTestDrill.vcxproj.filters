@@ -65,6 +65,9 @@
     <ClCompile Include="RecurrenceRelation.cpp">
       <Filter>Study</Filter>
     </ClCompile>
+    <ClCompile Include="Solve_15988.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solve_1759.h">
@@ -113,6 +116,9 @@
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="Solve_11726.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve_15988.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
