@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="CodingProblem\Solve_10972.cpp" />
     <ClCompile Include="CodingProblem\Solve_10973.cpp" />
+    <ClCompile Include="CodingProblem\Solve_1149.cpp" />
     <ClCompile Include="CodingProblem\Solve_11723.cpp" />
     <ClCompile Include="CodingProblem\Solve_11726.cpp" />
     <ClCompile Include="CodingProblem\Solve_1182.cpp" />
@@ -150,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="CodingProblem\Solve_10972.h" />
     <ClInclude Include="CodingProblem\Solve_10973.h" />
+    <ClInclude Include="CodingProblem\Solve_1149.h" />
     <ClInclude Include="CodingProblem\Solve_11723.h" />
     <ClInclude Include="CodingProblem\Solve_11726.h" />
     <ClInclude Include="CodingProblem\Solve_1182.h" />

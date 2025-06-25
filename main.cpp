@@ -1,5 +1,6 @@
 ﻿
 #include <iostream>
+#include "CodingProblem/Solve_1149.h"
 #include "CodingProblem/Solve_1182.h"
 #include "CodingProblem/Solve_1463.h"
 #include "CodingProblem/Solve_1759.h"
@@ -17,6 +18,7 @@
 
 int main()
 {
+	BP1149::Solve_1149();
 	// BP1182::Solve_1182();
 	// BP1463::Solve_1463();
 	// BP1759::Solve_1759();
@@ -30,5 +32,5 @@ int main()
 	// BP11726::Solve_11726();
 	// BP15649::Solve_15649();
 	// BP15650::Solve_15650();
-	BP15988::Solve_15988();
+	// BP15988::Solve_15988();
 }

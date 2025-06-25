@@ -70,6 +70,9 @@
     <ClCompile Include="Theory\RecurrenceRelation.cpp">
       <Filter>Theory</Filter>
     </ClCompile>
+    <ClCompile Include="CodingProblem\Solve_1149.cpp">
+      <Filter>CodingProblem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CodingProblem\Solve_1182.h">
@@ -122,6 +125,9 @@
     </ClInclude>
     <ClInclude Include="Theory\Permutation.h">
       <Filter>Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingProblem\Solve_1149.h">
+      <Filter>CodingProblem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
