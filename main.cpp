@@ -8,6 +8,7 @@
 #include "CodingProblem/Solve_3085.h"
 #include "CodingProblem/Solve_4375.h"
 #include "CodingProblem/Solve_9095.h"
+#include "CodingProblem/Solve_10845.h"
 #include "CodingProblem/Solve_10972.h"
 #include "CodingProblem/Solve_10973.h"
 #include "CodingProblem/Solve_11723.h"
@@ -18,7 +19,7 @@
 
 int main()
 {
-	BP1149::Solve_1149();
+	// BP1149::Solve_1149();
 	// BP1182::Solve_1182();
 	// BP1463::Solve_1463();
 	// BP1759::Solve_1759();
@@ -26,6 +27,7 @@ int main()
 	// BP3085::Solve_3085();
 	// BP4375::Solve_4375();
 	// BP9095::Solve_9095();
+	BP10845::Solve_10845();
 	// BP10972::Solve_10972();
 	// BP10973::Solve_10973();
 	// BP11723::Solve_11723();

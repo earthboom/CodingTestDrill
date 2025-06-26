@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CodingProblem\Solve_10845.cpp" />
     <ClCompile Include="CodingProblem\Solve_10972.cpp" />
     <ClCompile Include="CodingProblem\Solve_10973.cpp" />
     <ClCompile Include="CodingProblem\Solve_1149.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="Theory\RecurrenceRelation.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CodingProblem\Solve_10845.h" />
     <ClInclude Include="CodingProblem\Solve_10972.h" />
     <ClInclude Include="CodingProblem\Solve_10973.h" />
     <ClInclude Include="CodingProblem\Solve_1149.h" />
