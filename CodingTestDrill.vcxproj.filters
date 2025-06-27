@@ -76,6 +76,9 @@
     <ClCompile Include="CodingProblem\Solve_10845.cpp">
       <Filter>CodingProblem</Filter>
     </ClCompile>
+    <ClCompile Include="CodingProblem\Solve_10866.cpp">
+      <Filter>CodingProblem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CodingProblem\Solve_1182.h">
@@ -133,6 +136,9 @@
       <Filter>CodingProblem</Filter>
     </ClInclude>
     <ClInclude Include="CodingProblem\Solve_10845.h">
+      <Filter>CodingProblem</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingProblem\Solve_10866.h">
       <Filter>CodingProblem</Filter>
     </ClInclude>
   </ItemGroup>
