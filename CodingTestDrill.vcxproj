@@ -135,6 +135,7 @@
     <ClCompile Include="CodingProblem\Solve_11723.cpp" />
     <ClCompile Include="CodingProblem\Solve_11726.cpp" />
     <ClCompile Include="CodingProblem\Solve_1182.cpp" />
+    <ClCompile Include="CodingProblem\Solve_13023.cpp" />
     <ClCompile Include="CodingProblem\Solve_1463.cpp" />
     <ClCompile Include="CodingProblem\Solve_15649.cpp" />
     <ClCompile Include="CodingProblem\Solve_15650.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="CodingProblem\Solve_11723.h" />
     <ClInclude Include="CodingProblem\Solve_11726.h" />
     <ClInclude Include="CodingProblem\Solve_1182.h" />
+    <ClInclude Include="CodingProblem\Solve_13023.h" />
     <ClInclude Include="CodingProblem\Solve_1463.h" />
     <ClInclude Include="CodingProblem\Solve_15649.h" />
     <ClInclude Include="CodingProblem\Solve_15650.h" />

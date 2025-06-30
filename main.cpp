@@ -14,6 +14,7 @@
 #include "CodingProblem/Solve_10973.h"
 #include "CodingProblem/Solve_11723.h"
 #include "CodingProblem/Solve_11726.h"
+#include "CodingProblem/Solve_13023.h"
 #include "CodingProblem/Solve_15649.h"
 #include "CodingProblem/Solve_15650.h"
 #include "CodingProblem/Solve_15988.h"
@@ -29,11 +30,12 @@ int main()
 	// BP4375::Solve_4375();
 	// BP9095::Solve_9095();
 	// BP10845::Solve_10845();
-	BP10866::Solve_10866();
+	// BP10866::Solve_10866();
 	// BP10972::Solve_10972();
 	// BP10973::Solve_10973();
 	// BP11723::Solve_11723();
 	// BP11726::Solve_11726();
+	BP13023::Solve_13023();
 	// BP15649::Solve_15649();
 	// BP15650::Solve_15650();
 	// BP15988::Solve_15988();
