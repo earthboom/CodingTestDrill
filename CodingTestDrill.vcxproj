@@ -147,8 +147,10 @@
     <ClCompile Include="CodingProblem\Solve_9095.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Theory\Bitmask.cpp" />
+    <ClCompile Include="Theory\BubbleSort.cpp" />
     <ClCompile Include="Theory\DynamicProgramming.cpp" />
     <ClCompile Include="Theory\Permutation.cpp" />
+    <ClCompile Include="Theory\QuickSort.cpp" />
     <ClCompile Include="Theory\RecurrenceRelation.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -172,7 +174,9 @@
     <ClInclude Include="CodingProblem\Solve_9095.h" />
     <ClInclude Include="Theory\Bitmask.h" />
     <ClInclude Include="Theory\BruteForce.h" />
+    <ClInclude Include="Theory\BubbleSort.h" />
     <ClInclude Include="Theory\Permutation.h" />
+    <ClInclude Include="Theory\QuickSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

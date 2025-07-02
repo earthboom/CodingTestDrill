@@ -82,6 +82,12 @@
     <ClCompile Include="CodingProblem\Solve_13023.cpp">
       <Filter>CodingProblem</Filter>
     </ClCompile>
+    <ClCompile Include="Theory\BubbleSort.cpp">
+      <Filter>Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="Theory\QuickSort.cpp">
+      <Filter>Theory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CodingProblem\Solve_1182.h">
@@ -146,6 +152,12 @@
     </ClInclude>
     <ClInclude Include="CodingProblem\Solve_13023.h">
       <Filter>CodingProblem</Filter>
+    </ClInclude>
+    <ClInclude Include="Theory\BubbleSort.h">
+      <Filter>Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Theory\QuickSort.h">
+      <Filter>Theory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

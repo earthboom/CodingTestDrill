@@ -19,6 +19,9 @@
 #include "CodingProblem/Solve_15650.h"
 #include "CodingProblem/Solve_15988.h"
 
+#include "Theory/BubbleSort.h"
+#include "Theory/QuickSort.h"
+
 int main()
 {
 	// BP1149::Solve_1149();
@@ -35,8 +38,11 @@ int main()
 	// BP10973::Solve_10973();
 	// BP11723::Solve_11723();
 	// BP11726::Solve_11726();
-	BP13023::Solve_13023();
+	// BP13023::Solve_13023();
 	// BP15649::Solve_15649();
 	// BP15650::Solve_15650();
 	// BP15988::Solve_15988();
+
+	// BUBBLE_SORT::BubbleSort_Main();
+	QUICK_SORT::QuickSort_Main();
 }
