@@ -21,6 +21,7 @@
 
 #include "Theory/BubbleSort.h"
 #include "Theory/QuickSort.h"
+#include "Theory/MergeSort.h"
 
 int main()
 {
@@ -44,5 +45,6 @@ int main()
 	// BP15988::Solve_15988();
 
 	// BUBBLE_SORT::BubbleSort_Main();
-	QUICK_SORT::QuickSort_Main();
+	// QUICK_SORT::QuickSort_Main();
+	MERGE_SORT::MergeSort_Main();
 }

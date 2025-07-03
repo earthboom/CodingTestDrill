@@ -88,6 +88,12 @@
     <ClCompile Include="Theory\QuickSort.cpp">
       <Filter>Theory</Filter>
     </ClCompile>
+    <ClCompile Include="Theory\MergeSort.cpp">
+      <Filter>Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="practice_pad.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CodingProblem\Solve_1182.h">
@@ -157,6 +163,9 @@
       <Filter>Theory</Filter>
     </ClInclude>
     <ClInclude Include="Theory\QuickSort.h">
+      <Filter>Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Theory\MergeSort.h">
       <Filter>Theory</Filter>
     </ClInclude>
   </ItemGroup>
